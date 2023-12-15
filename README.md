@@ -65,3 +65,9 @@ The S&P Chiller Case Index also declined in the year 2023.
 
 ![image](https://github.com/KritiAnand9/US-Home-Price/assets/87386146/da7fc8df-abe4-40af-ad3f-865c367c72e0)
 
+
+
+# Power BI Dashboard of S&P Chiller Case Index Forecast
+
+![image](https://github.com/KritiAnand9/US-Home-Price/assets/87386146/3555925a-642d-4845-8e16-b0e81f2a04fd)
+
