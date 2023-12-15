@@ -61,3 +61,7 @@ The S&P Chiller Case Index also declined in the year 2023.
 #### You will be directed to a webpage for finding the S&P Chiller Case Index of US Home Prices.
 #### Enter the month in the section and click on Predict SPI.
 #### Run the file in terminal using python app.py in PyCharm framework.
+
+
+![image](https://github.com/KritiAnand9/US-Home-Price/assets/87386146/da7fc8df-abe4-40af-ad3f-865c367c72e0)
+
