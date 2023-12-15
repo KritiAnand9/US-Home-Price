@@ -41,7 +41,22 @@ Mortgage, GDP, Federal Funds Rate is highest in the year 2023.
 
 The Construction Materials Index is the lowest in the year 2023. 
 
-The S&P Chiller Case Index also declined in the year 2023. 
+The S&P Chiller Case Index also declined in the year 2023.
+
+
+
+
+# Web Application ( Flask and HTML )
+
+Create a directory named US Home Prices Project.
+Then add dataset and app.py in the directory.
+Create a folder named templates inside the US Home Prices Project.
+Inside templates add the index.html file.
+Open the directory in PyCharm or any development framework.
+Open Browser and paste http://127.0.0.1:5000/ in the search of the browser.
+You will be directed to a webpage for finding the S&P Chiller Case Index of US Home Prices.
+Enter the month in the section and click on Predict SPI.
+Run the file in terminal using python app.py in PyCharm framework.
 
  
 
