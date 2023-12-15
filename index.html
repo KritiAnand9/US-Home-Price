@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Home Price S&P Chiller Case Index Predictive Results</title>
+</head>
+<body>
+    <h1>US Home Price S&P Chiller Case Index Predictive Results</h1>
+
+    <label for="monthSelector">Select Month:</label>
+    <input type="month" id="monthSelector" name="monthSelector" required>
+
+    <button onclick="predictSPI()">Predict SPI</button>
+
+    <div id="result"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        function predictSPI() {
+            // Get the selected month from the input
+            var selectedMonth = $('#monthSelector').val();
+
+            // Send AJAX request with the selected month
+            $.ajax({
+                type: 'POST',
+                url: '/predict_spi',
+                data: {'selected_month': selectedMonth},
+                success: function (data) {
+                    var resultDiv = $('#result');
+                    resultDiv.empty();
+                    resultDiv.append('<h2>Forecasted SPI Value for ' + data.selected_month + ':</h2>');
+                    resultDiv.append('<p>Forecast: ' + data.forecast_value + '</p>');
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
